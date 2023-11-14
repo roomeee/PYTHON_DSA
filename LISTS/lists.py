@@ -143,25 +143,25 @@ class MyList:
         return result_Sum
 
 
-# Example usage:
-L = MyList()
-L.append(1)
-L.append(100)
-L.append(3.4)
-L.append(21)
-print(len(L))
-print(L)
-
-# Sorting the list
-L.sort()
-print("Sorted list:", L)
-
-# Adding more elements and extending the list
-List_b = [32, 86]
-L.extend(List_b)
-print("Extended list:", L)
-
-# Displaying the minimum, maximum, and sum of the elements in the list
-print("Minimum:", L.min())
-print("Maximum:", L.max())
-print("Sum:", L.sum())
+# # Example usage:
+# L = MyList()
+# L.append(1)
+# L.append(100)
+# L.append(3.4)
+# L.append(21)
+# print(len(L))
+# print(L)
+#
+# # Sorting the list
+# L.sort()
+# print("Sorted list:", L)
+#
+# # Adding more elements and extending the list
+# List_b = [32, 86]
+# L.extend(List_b)
+# print("Extended list:", L)
+#
+# # Displaying the minimum, maximum, and sum of the elements in the list
+# print("Minimum:", L.min())
+# print("Maximum:", L.max())
+# print("Sum:", L.sum())
